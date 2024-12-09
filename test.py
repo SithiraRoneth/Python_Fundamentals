@@ -79,7 +79,7 @@ num = [1,2,3,4,5]
 #     total = 0
 #     for x in new_list:
 #         total+=x
-#     avg = total/len(new_list)
+#     avg = (total/len(new_list)+1)
 #     return avg
 
 # print(calculate_mean(my_list))
