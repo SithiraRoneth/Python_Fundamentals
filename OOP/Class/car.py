@@ -105,3 +105,42 @@ new_holder.deposit(-1000)
 new_holder.withdraw(5000)
 new_holder.withdraw(50000)
 new_holder.deposit(15000)
+
+
+class StudentManage():
+    # def __init__(self,name,age,address):
+    #     self.__name = name
+    #     self.__age = age
+    #     self.__address = address
+    
+    def print_student_details(self):
+        print("Student name : " , self.name)
+        print("Student age : " , self.age)
+        print("Student address : " , self.address)
+    
+    def setName(self,name):
+        self.__name = name
+    def setAge(self,age):
+        self.__age = age
+    def setAddress(self,address):
+        self.__address = address
+    
+    def getName(self):
+        print("Student Name:",self.__name)
+    
+    def getAge(self):
+        print("Student age:",self.__age)
+    
+    def getAddress(self):
+        print("Student Address:",self.__address)
+
+
+# new_student = StudentManage("Sithira",21,"Tahalhena")
+new_student = StudentManage()
+new_student.setName("Sithira")
+new_student.setAge(21)
+new_student.setAddress("Thalahena")
+
+new_student.getName()
+new_student.getAge()
+new_student.getAddress()
