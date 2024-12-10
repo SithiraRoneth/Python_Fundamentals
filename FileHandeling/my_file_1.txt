@@ -1,0 +1,3 @@
+Hello word
+This is our python
+We are global citizen
